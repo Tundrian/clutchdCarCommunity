@@ -1,4 +1,6 @@
 import Navbar from './Navbar';
+import Gallery from './Gallery';
+import Merchandise from './Merchandise';
 
 function Home() {
   return (
@@ -14,83 +16,9 @@ function Home() {
 			</main>
 		</div>
 
-		<section id="gallery" class="gallery">
-			<h2>Gallery</h2>
-			<p>Community spotlight over the last few years</p>
+		<Gallery />
 
-			<ul>
-				<li>
-					<img src="assets/images/gallery/car10.jpg" alt=""></img>
-				</li>
-				<li>
-					<img src="assets/images/gallery/car2.jpg" alt=""></img>
-				</li>
-				<li>
-					<img src="assets/images/gallery/car3.jpg" alt=""></img>
-				</li>
-				<li>
-					<img src="assets/images/gallery/car4.jpg" alt=""></img>
-				</li>
-				<li>
-					<img src="assets/images/gallery/car5.jpg" alt=""></img>
-				</li>
-				<li>
-					<img src="assets/images/gallery/car14.jpg" alt=""></img>
-				</li>
-				<li>
-					<img src="assets/images/gallery/car13.jpg" alt=""></img>
-				</li>
-				<li>
-					<img src="assets/images/gallery/car8.jpg" alt=""></img>
-				</li>
-			</ul>
-		</section>
-
-		<section class="merchandise">
-			<h2>Merchandise</h2>
-			<p>Check out the latest stickers, shirts, and other products</p>
-			<ul>
-				<li>
-					<img src="assets/images/merch/misc.jpg" alt=""></img>
-					<div>
-						<h4>Miscellaneous Shirts & Stickers</h4>
-						<span>$30.00</span>
-					</div>
-					
-				</li>
-				<li>
-					<img src="assets/images/merch/shirt.jpg" alt=""></img>
-					<div>
-						<h4>Mens & Women's T: Clutchd/Gray</h4>
-						<span>$15.00</span>
-					</div>
-					
-				</li>
-				<li>
-					<img src="assets/images/merch/shirt2.jpg" alt=""></img>
-					<div>
-						<h4>Men's & women's T: Logo/Black</h4>
-						<span>$15.00</span>
-					</div>
-					
-				</li>
-				<li>
-					<img src="assets/images/merch/shirt3.jpg" alt=""></img>
-					<div>
-						<h4>Men's & Women's T: Clutched/Black</h4>
-						<span>$15.00</span>
-					</div>
-		
-				</li>
-				<li>
-					<img src="assets/images/merch/sticker1.jpg" alt=""></img>
-					<div>
-						<h4>Variety of Stickers</h4>
-						<span>$5.00 - $150.00</span>
-					</div>
-				</li>
-			</ul>
-		</section>
+        <Merchandise />
 
 		<section class="about">
 			<h2>Who We Are</h2>
